@@ -19,7 +19,7 @@ var comparacion;
 edad=document.getElementById("txtIdEdad").value;
 comparacion=(15);
 if(edad == comparacion)
-mensaje="niña bonita";
+{mensaje="niña bonita";}
 
 /*debajo del if, va el resultado en caso de que la condicion se cumpla*/
 

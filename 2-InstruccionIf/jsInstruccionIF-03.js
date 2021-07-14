@@ -1,4 +1,6 @@
-//Alumno: JUAN SEBASTIAN VIAZZO  - EJERCICIO 03 DE INSTRUCCION IF//
+//Alumno: JUAN SEBASTIAN VIAZZO  - EJERCICIO 03 DE INSTRUCCION IF
+/* Al ingresar una edad debemos informar si la persona 
+es mayor de edad, sino informar que es un menor de edad.*/
 
 
 function mostrar ()

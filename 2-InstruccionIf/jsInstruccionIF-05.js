@@ -1,6 +1,7 @@
 
 //Alumno: JUAN SEBASTIAN VIAZZO  - EJERCICIO 05 DE INSTRUCCION IF//
-
+/* Enunciado:
+Al ingresar una edad solo debemos informar si la persona NO es adolescente.*/
 
 function mostrar()
 {
@@ -12,7 +13,8 @@ function mostrar()
 	
 		
 		Edad=document.getElementById("txtIdEdad").value;
-		if (Edad < 13 || Edad >= 17){
+		if (Edad < 13 || Edad >= 17)
+		{
 		 mensaje=("La persona NO es adolescente")
 		alert(mensaje);
 		}

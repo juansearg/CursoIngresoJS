@@ -1,5 +1,8 @@
 
 //Alumno: JUAN SEBASTIAN VIAZZO  - EJERCICIO 02 DE INSTRUCCION IF
+//Al ingresar una edad debemos informar solo si la persona es mayor de edad
+
+
 
 function mostrar()
 {
@@ -28,7 +31,8 @@ if (edad >= comparacion)
 {mensaje=("La persona es mayor de edad");
 alert(mensaje)
 console.log ("es mayor de edad");}
-else {mensajemenor=("La persona es menor de edad");
+else 
+{mensajemenor=("La persona es menor de edad");
 alert(mensajemenor);
 console.log ("es menor de edad");}
 

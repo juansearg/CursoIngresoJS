@@ -12,7 +12,7 @@ function mostrar()
 	var numerorandom;
 
 
-	numerorandom = Math.floor(Math.random(1)*9+1);
+	numerorandom = Math.floor(Math.random()*10+1);
 	if (numerorandom > 0)
 	
 	alert(numerorandom)

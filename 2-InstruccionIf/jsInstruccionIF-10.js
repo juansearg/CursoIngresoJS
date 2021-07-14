@@ -12,16 +12,17 @@ function mostrar()
 var numerorandon;
 
 
-numerorandon = Math.floor(Math.random(1.10)*9+1);
+numerorandon = Math.floor(Math.random()*10+1);
+/* si uso parseInt en vez de Math.floor esta bien*/
 
 if (numerorandon >= 9)
 alert ("Excelente la nota fue: " + numerorandon)
 
 else if (numerorandon > 4 && numerorandon < 9)
- alert ("Aprobo la nota fue: " + numerorandon);
+ {alert ("Aprobo la nota fue: " + numerorandon)}
 
-else if (numerorandon < 4)
-alert ("Vamos, la proxima se puede, la nota fue: " + numerorandon);
+else
+{alert ("Vamos, la proxima se puede, la nota fue: " + numerorandon)}
 
 
 {console.log (numerorandon);}
