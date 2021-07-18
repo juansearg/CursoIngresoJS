@@ -29,18 +29,47 @@ function mostrar()
 	
 	
 	
-	edad = parseInt (document.getElementById("txtIdEdad").value);
+	edad = parseInt(document.getElementById("txtIdEdad").value);
 
-		if (edad >= 18){
-			MensajeMayor =("La persona es mayor de edad")
-			alert (MensajeMayor);
+	if(edad>17)
+	{
+
+	}
+	else
+	{
+		if (edad<13) 
+		{
+			
 		}
-		else if (edad >= 13 && edad <= 17)
-		{ MensajeAdolescente = ("La persona es adolescente");
-		alert (MensajeAdolescente)}
 		else
-		{ MensajeMenor= ("La persona es menor de edad")
-		alert (MensajeMenor)}
+		{
+			
+		}
+	}
+	
+	
+	
+	
+	
+	/*
+
+
+
+	
+	
+	if (edad >= 18) 
+	{
+		MensajeMayor = ("La persona es mayor de edad")
+		alert(MensajeMayor);
+	}
+	else if (edad >= 13 && edad <= 17) {
+		MensajeAdolescente = ("La persona es adolescente");
+		alert(MensajeAdolescente)
+	}
+	else {
+		MensajeMenor = ("La persona es menor de edad")
+		alert(MensajeMenor)
+	}
 
 
 		/* edad = parseInt (document.getElementById("txtIdEdad").value);
